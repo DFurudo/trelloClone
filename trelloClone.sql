@@ -1,4 +1,7 @@
 CREATE DATABASE IF NOT EXISTS appliWeb;
+
+USE appliWeb;
+
 CREATE TABLE utilisateur (
   id int NOT NULL AUTO_INCREMENT,
   identifiant varchar(255) NOT NULL,
