@@ -25,6 +25,7 @@ if(isset($_GET['id']) AND $_GET['id'] > 0)
          Pseudo = Profil de <?php echo $userinfo['pseudo']; ?>
          <br />
          <br />
+        Ou vous connectez a notre site : 
            <?php
          if(isset($_SESSION['id']) AND $userinfo['id'] == $_SESSION['id']) {
          ?>
