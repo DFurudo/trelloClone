@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$bdd = new PDO("mysql:host=localhost;dbname=appliWeb", 'younes_trello', 'algeriendu34');
+$bdd = new PDO("mysql:host=localhost;dbname=appliWeb", 'younes_trello', '***********');
 
 if(isset($_POST['formconnexion']))
 
